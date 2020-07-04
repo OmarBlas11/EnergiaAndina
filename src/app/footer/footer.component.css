@@ -1,0 +1,88 @@
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+}
+li{
+    list-style-type: none;
+}
+.main-container{
+    height: 450px;
+}
+.main-footer{
+    font-size: 0.85714em;
+    background-color: #252422;
+    align-items: center;
+}
+.footer{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.footer1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.footer2 label{
+    margin: 0 0 10px 0;
+    color: aliceblue;
+}
+.footer2 div p li{
+    color: aliceblue;
+    font-weight: 500;
+}
+.sociales{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.sociales a{
+    font-size: 40px;
+}
+.sociales div div{
+    width: 58px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 7px -1px #FFF;
+    font-size: 4x;
+}
+.sociles1{
+    display: flex;
+    justify-content: center;
+}
+.sociles1 div a{
+    margin-left: 10px;
+    
+    color: white;
+}
+.margin{
+    margin-left: 5px;
+}
+.gmail{
+    margin-left: 2px;
+}
+.inst{
+    margin-left: 2.6px;
+}
+.face{
+    background-color: royalblue;
+}
+.twiter{
+    background-color: #31B5EE;
+}
+.mail{
+    background-color: #F62434;
+}
+.insta{
+    background-color: #3ED1EB;
+}
+.sociles1 div:not(:nth-child(4)){
+    margin-right: 50px;
+}
+.sociles1 div a i:hover{
+    color: #dddddd;
+}
+.copi-rigth{
+    text-align: center;
+    color: aliceblue;
+}
